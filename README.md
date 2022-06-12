@@ -1,6 +1,6 @@
 # alfred-notion-note-workflow
 
-![](https://user-images.githubusercontent.com/604167/173209441-28e26a25-261d-4f48-8146-27f95ca573bc.png)
+![](https://user-images.githubusercontent.com/604167/173222907-3b905ae9-8d11-4338-b31a-82372b8a6bbd.png)
 
 An [Alfred 4](https://www.alfredapp.com/) workflow for adding a note to a [Notion](https://www.notion.so/) page.
 
@@ -38,9 +38,21 @@ Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is requir
 
 ## Usage
 
+### Add a note
+
 1. Use the keyword `no` to trigger the workflow
 2. Enter the note you would like to add
 3. Press `enter` to submit
 4. The note will appear on the specified Notion page with a timestamp
 
-![](https://user-images.githubusercontent.com/604167/173209654-909bcd22-c484-455d-8c9f-ae7f7dfebe99.png)
+### Open notes in browser
+
+1. Use the keyword `gno` to trigger the workflow
+2. Press `enter` to submit
+3. A browser window or tab will open to the specified Notion notes page
+
+### Open notes in Notion app
+
+1. Use the keyword `ono` to trigger the workflow
+2. Press `enter` to submit
+3. The Notion app will open to the specified Notion notes page
