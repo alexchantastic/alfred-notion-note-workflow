@@ -56,3 +56,7 @@ Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is requir
 1. Use the keyword `ono` to trigger the workflow
 2. Press `enter` to submit
 3. The Notion app will open to the specified Notion notes page
+
+## License
+
+Code released under the [MIT License](https://github.com/alexchantastic/alfred-notion-note-workflow/blob/master/LICENSE).
