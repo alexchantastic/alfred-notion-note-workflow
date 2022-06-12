@@ -14,7 +14,7 @@ You will need to generate an [internal integration](https://developers.notion.co
 
 1. Navigate to [https://www.notion.so/my-integrations](https://www.notion.so/my-integrations) to set up your  integration
 2. Set the integration type to **Internal integration**
-3. Set the capabilities to **Insert content** only and **No user information**
+3. Set the capabilities to **Read content** and **Insert content** only and **No user information**
 4. Save the changes and make note of the API token that is generated
 
 ### Granting the integration access to a page
