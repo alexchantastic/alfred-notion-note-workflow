@@ -30,13 +30,9 @@ You will need to generate an [internal integration](https://developers.notion.co
 
 1. [Download the workflow](https://github.com/alexchantastic/alfred-notion-note-workflow/releases/latest)
 2. Double click the `.alfredworkflow` file to install
-3. Open Alfred preferences
-4. Navigate to the Workflows section
-5. Select the Notion Note workflow
-6. Click the **Configure workflow and variables** icon at the top right
 7. Add your Notion API key to the `notion_api_key` environment variable
 8. Add the [page ID](https://developers.notion.com/docs/working-with-page-content#creating-a-page-with-content) of the Notion page you would like to add notes to to the `notion_page_id` environment variable
-9. Save the changes
+9. Click **Import**
 
 Note that the [Alfred Powerpack](https://www.alfredapp.com/powerpack/) is required to use workflows.
 
