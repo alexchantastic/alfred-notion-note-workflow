@@ -2,7 +2,7 @@
 
 ![](https://user-images.githubusercontent.com/604167/173222907-3b905ae9-8d11-4338-b31a-82372b8a6bbd.png)
 
-An [Alfred 4](https://www.alfredapp.com/) workflow for adding a note to a [Notion](https://www.notion.so/) page.
+An [Alfred 5](https://www.alfredapp.com/) workflow for adding a note to a [Notion](https://www.notion.so/) page.
 
 ## Requirements
 
