@@ -232,9 +232,8 @@ curl -X PATCH "https://api.notion.com/v1/blocks/$notion_page_id/children" \
   --silent \
   -H 'Authorization: Bearer '"$notion_api_key"'' \
   -H "Notion-Version: 2022-02-22")
-key="id"
 
-url=$(echo -n $json | grep -o '"url":".*"')
+url=$(echo -n $json | grep -o -E '"url":".*?"')
 url=${url:7}
 url=${url%?}
 
@@ -307,9 +306,8 @@ echo -n $url</string>
   --silent \
   -H 'Authorization: Bearer '"$notion_api_key"'' \
   -H "Notion-Version: 2022-02-22")
-key="id"
 
-url=$(echo -n $json | grep -o '"url":".*"')
+url=$(echo -n $json | grep -o -E '"url":".*?"')
 url=${url:7}
 url=${url%?}
 
@@ -438,7 +436,7 @@ echo -n ${url/https/notion}</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.2.0</string>
+	<string>1.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/alexchantastic/alfred-notion-note-workflow</string>
 </dict>
